@@ -1,6 +1,6 @@
 #Mehen
 
-Mehen is a tool written in PHP to forwarding ports between two hosts via [SSH](http://fr.wikipedia.org/wiki/Secure_Shell).--
+Mehen is a tool written in PHP to forwarding ports between two hosts via [SSH](http://fr.wikipedia.org/wiki/Secure_Shell).  
 To using it, SSH should be available on the local host and sshd should running on the remote host.  
 Moreover, you should use a PHP version ≥ 5.3.  
 For example, to forward the port 3307 from your local host to the port 3306 of a remote host to connect to the corresponding MySQL server, just do:
