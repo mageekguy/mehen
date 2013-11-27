@@ -128,17 +128,6 @@ class tunnel
 			throw new tunnel\exception('Tunnel is already open');
 		}
 
-		$sshCommand = sprintf($this->sshTunnelingCommand,
-			$this->sshPrivateKeyFile === null ? '' : '-i ' . $this->sshPrivateKeyFile,
-			$this->sshPort,
-			$this->localHost,
-			$this->localPort,
-			$this->remoteHost,
-			$this->remotePort,
-			$this->sshUser,
-			$this->sshHost
-		);
-
 		$descriptors = array();
 		$pipes = array();
 
