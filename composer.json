@@ -1,0 +1,25 @@
+{
+	"name": "mageekguy/mehen",
+	"description": "A tool written in PHP to forward ports between two hosts via SSH",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Frédéric Hardy",
+			"email": "frederic.hardy@atoum.org",
+			"homepage": "http://blog.mageekbox.net"
+		},
+		{
+			"name"	: "Contributors",
+			"homepage": "https://github.com/mageekguy/mehen/graphs/contributors/"
+		}
+	],
+	"require-dev": {
+		"atoum/atoum": "dev-master"
+	},
+	"autoload": {
+		"files": ["autoloader.php"]
+	},
+	"config": {
+		"bin-dir": "bin"
+	}
+}

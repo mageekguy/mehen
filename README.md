@@ -1,4 +1,4 @@
-#Mehen
+#Mehen [![Build Status](https://travis-ci.org/mageekguy/mehen.png?branch=master)](https://travis-ci.org/mageekguy/mehen)
 
 Mehen is a tool written in PHP to forward ports between two hosts via [SSH](http://fr.wikipedia.org/wiki/Secure_Shell).  
 To use it, SSH should be available on the local host and sshd should be running on the remote host.  
