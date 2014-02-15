@@ -16,9 +16,8 @@
 	"require-dev": {
 		"atoum/atoum": "dev-master"
 	},
-	"autoload":
-	{
-		"classmap": [ "classes" ]
+	"autoload": {
+		"files": ["autoloader.php"]
 	},
 	"config": {
 		"bin-dir": "bin"
